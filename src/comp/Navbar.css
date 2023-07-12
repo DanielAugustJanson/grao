@@ -1,0 +1,45 @@
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.navDiv{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+
+    width: 70%;
+
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 30px;
+}
+
+.links p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 3px white;
+}
+
+.active{
+    color: aqua;
+}
+
+.links p:hover{
+    cursor: pointer;
+    font-weight: 300;
+    color: rgb(255, 196, 0);
+    transition: 0.5s;
+    border-bottom: solid 3px gold;
+}
