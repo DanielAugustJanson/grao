@@ -2,24 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 import GoogleMapReact from "google-map-react";
 
-const Maps = (lat, lng, zoom) => {
+const Maps = ({data}) => {
+
     const defaultProps = {
         center: {
           lat: 59.43274889412256,
-          lng: 24.74463366254776,
+          lng: 24.74463366254776
         },
-        zoom: 14,
+        zoom: 16,
       };
 
 
-  return(
-    <GoogleMapReact
-          bootstrapURLKeys={{ key: "" }}
-          defaultCenter={defaultProps.center}
-          defaultZoom={defaultProps.zoom}
-        >
-    </GoogleMapReact>
-  )
+  return;
+
 };
 
 Maps.propTypes = {};

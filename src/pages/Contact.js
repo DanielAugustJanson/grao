@@ -15,6 +15,7 @@ const Contact = props => {
         <div id='ContactMap'>
           <Maps></Maps>
         </div>
+
         <div id='ContactData'>
           <p>data</p>
         </div>

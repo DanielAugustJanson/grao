@@ -2,6 +2,8 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* SECTION I */
+
 #ContactLanding{
     position: relative;
     text-align: center;
@@ -27,9 +29,18 @@
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+
+/* SECTION II */
+
 #ContactInfo{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
+#ContactMap{
+    width: 400px;
+    height: 300px;
+}
+
