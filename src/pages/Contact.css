@@ -1,0 +1,74 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+/* SECTION I */
+
+#ContactLanding{
+    position: relative;
+    text-align: center;
+}
+
+#ContactLanding img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+#ContactLanding p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    font-weight: 500;
+    font-size: 5rem;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* SECTION II */
+
+#ContactInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 30px;
+    height: 1000px;
+}
+
+#ContactInfo div{
+    width: 500px;
+    height:500px;
+    border-radius: 10px;
+}
+
+#ContactData{
+    display: flex;
+    flex-direction: column;
+    background-color: #cf2e2e;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: white;
+}
+
+#ContactData p{
+    line-height: 35px;
+}
+
+
+
+#ContactMap{
+    width: 40vw;
+    height: 500px;
+}
+
