@@ -2,10 +2,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Navbar.css";
-import GraoBorder from "./../assets/logos/grao.13x8mm.png";
-import GraoGold from "./../assets/logos/grao.30x47.png";
 import GraoBlack from "./../assets/logos/grao.30x47B2.png";
-import GraoWhite from "./../assets/logos/grao.30x472.png";
+import VeneTeater from "./../assets/logos/VeneTeater.svg"
 
 const Navbar = ({ language, activeLink, setActiveLink }) => {
   return (
@@ -15,6 +13,8 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
           <img alt="Grao Logo" src={GraoBlack} onClick={()=>{
             setActiveLink("Home")
           }}></img>
+          <img alt="Vene Teater Logo" src={VeneTeater}>
+          </img>
         </div>
 
         <div className="links">
