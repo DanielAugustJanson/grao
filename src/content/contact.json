@@ -1,0 +1,23 @@
+{
+  "ENG": {
+    "titleLanding": "Visit Us",
+    "contactInfo": {
+      "h3": "Cafe Grao",
+      "contact": "Contact"
+    }
+  },
+  "EST": {
+    "titleLanding": "Ootame teid külla",
+    "contactInfo": {
+      "h3": "Kohvik Grao",
+      "contact": "Kontakt"
+    }
+  },
+  "RUS": {
+    "titleLanding": "Visit Us",
+    "contactInfo": {
+      "h3": "Cafe Grao",
+      "contact": "Contact"
+    }
+  }
+}

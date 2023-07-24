@@ -26,15 +26,15 @@ function App() {
   function render(){
     switch(activeLink){
       case "Home":
-        return <Home></Home>
+        return <Home language={language}></Home>
       case "About":
-        return <About></About>
+        return <About language={language}></About>
       case "Gallery":
         return <Gallery></Gallery>
       case "Contact":
-        return <Contact></Contact>
+        return <Contact language={language}></Contact>
       case "Order":
-        return <Order></Order>
+        return <Order language={language}></Order>
       default:
         console.log("Switch component failure")
         window.alert("Runtime error, please refresh the page.")
