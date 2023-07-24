@@ -2,13 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Contact.css";
 import ContactImage from "../assets/images/VT2.jpg";
+import contactJSON from "./../content/contact.json"
 
-const Contact = (props) => {
+const Contact = ({language}) => {
+
   return (
     <div>
       <section id="ContactLanding">
         <img alt="Vene Teater Front View" src={ContactImage}></img>
-        <p>Visit Us</p>
+        <p>{contactJSON[language]["titleLanding"]}</p>
       </section>
       <section id="ContactInfo">
       <iframe id="ContactMap"
@@ -20,9 +22,9 @@ const Contact = (props) => {
             zoom="12"
           ></iframe>
         <div id="ContactData">
-          <h3>Kohvik Grao</h3>
+          <h3>{contactJSON[language]["contactInfo"]["h3"]}</h3>
           <p>Vene Teater<br/>Vabaduse Väljak 5<br/>10141</p>
-          <p>Contact<br/>+372 5661 6636<br/>graocatering@gmail.com</p>
+          <p>{contactJSON[language]["contactInfo"]["contact"]}<br/>+372 5661 6636<br/>graocatering@gmail.com</p>
         </div>
       </section>
     </div>
