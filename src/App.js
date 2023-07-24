@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './comp/Navbar';
 import Home from './pages/Home';
@@ -7,6 +7,7 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Order from './pages/Order';
 import Footer from './comp/Footer';
+import LangSwitcher from './comp/LangSwitcher';
 
 function App() {
   const[language,setLanguage] = useState("EST")
@@ -15,25 +16,28 @@ function App() {
   const apiKey = process.env.REACT_APP_MAPS_API_KEY;
   console.log(apiKey)
 
+  /* For Testing
+  useEffect(()=>{
+    console.log(language)
+  },[language])
+  */
+
   //Render website
   function render(){
     switch(activeLink){
       case "Home":
         return <Home></Home>
-        break;
       case "About":
         return <About></About>
-        break;
       case "Gallery":
         return <Gallery></Gallery>
-        break;
       case "Contact":
         return <Contact></Contact>
-        break;
       case "Order":
         return <Order></Order>
-        break;
       default:
+        console.log("Switch component failure")
+        window.alert("Runtime error, please refresh the page.")
         break;
     }
   }
@@ -41,6 +45,7 @@ function App() {
   return (
     <div className="App">
       <Navbar language={language} activeLink={activeLink} setActiveLink={setActiveLink}></Navbar>
+      <LangSwitcher language={language} setLanguage={setLanguage}></LangSwitcher>
       {render()}
       <Footer></Footer>
     </div>

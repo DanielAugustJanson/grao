@@ -1,0 +1,45 @@
+.lang-switcher{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 85px;
+  bottom: 20px;
+  right: 5vw;
+}
+
+.lang-switcher{
+  padding: 0px 10px 0 10px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: solid 1px rgb(71, 71, 71);
+}
+
+.lang-switcher:hover{
+  background-color: rgb(221, 221, 221);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.lang-switcher p{
+  font-size: 1rem;
+}
+
+.lang-switcher img{
+  height: 30px;
+  width: 40px;
+  object-fit: fill;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+.selected-div, .dropdown-inner-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
+
