@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import "./Home.css"
+import GraoBlack from "./../assets/logos/grao.30x47B2.png";
 import LandingImg from "./../assets/grao/G1.JPG"
 import G1 from "./../assets/grao/G6.png"
 import G2 from "./../assets/grao/G7.png"
@@ -35,8 +36,9 @@ const Home = ({language,setActiveLink}) => {
       </section>
       <section id='HomeMenu'>
         <div>
+          <img id='menuLogo' alt='grao logo' src={GraoBlack}></img>
           <h2>Menu</h2>
-          <img alt='menu' src={Menu}></img>
+          <img id='menuImg' alt='menu' src={Menu}></img>
         </div>
       </section>
     </div>

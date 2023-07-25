@@ -122,6 +122,12 @@ section{
     border-bottom: solid 2px black;
 }
 
-#HomeMenu img{
+#menuLogo{
+    width: 20vw;
+    height: auto;
+}
+
+#menuImg{
     width: 80%;
+    height: auto;
 }
