@@ -1,0 +1,127 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+section{
+    padding-bottom: 30px;
+}
+
+#HomeLanding{
+    position: relative;
+    text-align: center;
+}
+
+#HomeLanding img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+#HomeLanding h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: 500;
+    font-size: 5rem;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#HomeLanding h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: 500;
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/*--------------------------------------------*/
+
+.spannerHor{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.spannerHor div{
+    border-radius: 15px;
+}
+
+/*--------------------------------------------*/
+
+.galleryDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.galleryDiv img{
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.galleryDiv img:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/*--------------------------------------------*/
+
+.galleryUpper{
+    width: 40vw;
+    height: auto;
+}
+
+.galleryLower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryLower img{
+    width: 19vw;
+    height: auto;
+}
+
+/*--------------------------------------------*/
+
+.TextDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    width: 30vw;
+    background-color: #cf2e2e;
+    height: 70vh;
+    padding: 10px;
+}
+
+/*--------------------------------------------*/
+/*--------------MENU---------------*/
+
+#HomeMenu div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#HomeMenu h2{
+    font-size: 3rem;
+    font-weight: 300;
+    border-bottom: solid 2px black;
+}
+
+#HomeMenu img{
+    width: 80%;
+}

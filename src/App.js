@@ -26,7 +26,7 @@ function App() {
   function render(){
     switch(activeLink){
       case "Home":
-        return <Home language={language}></Home>
+        return <Home language={language} setActiveLink={setActiveLink}></Home>
       case "About":
         return <About language={language}></About>
       case "Gallery":
