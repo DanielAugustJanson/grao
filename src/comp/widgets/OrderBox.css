@@ -1,0 +1,12 @@
+#OrderBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.orderSpanner{
+    display: flex;
+    gap: 10px;
+}
