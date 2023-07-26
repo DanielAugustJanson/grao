@@ -1,0 +1,60 @@
+#AboutLanding{
+    position: relative;
+    text-align: center;
+}
+
+#AboutLanding img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+#AboutLanding h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    font-weight: 500;
+    font-size: 5rem;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+/*----------------------------------------------*/
+
+.spannerHor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutSection-I img{
+    width: 40vw;
+    border-radius: 25px;
+
+}
+
+#AboutSection-I  .textDiv{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*----------------------------------------------------------*/
+
+
+#AboutSection-II img{
+    width: 25vw;
+    border-radius: 25px;
+    height: 80vh;
+    object-fit: cover;
+}
+
+#AboutSection-II .textDiv{
+    width: 25vw;
+}
+
