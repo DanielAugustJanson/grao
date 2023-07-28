@@ -1,0 +1,8 @@
+#OrderLanding img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: blur(0px);
+    position: relative;
+    text-align: center;
+}

@@ -13,8 +13,7 @@ function App() {
   const[language,setLanguage] = useState("EST")
   const [activeLink, setActiveLink] = useState('Home');
   
-  const apiKey = process.env.REACT_APP_MAPS_API_KEY;
-  console.log(apiKey)
+  //onsole.log(process.env.REACT_APP_TEMPLATE_ID)
 
   /* For Testing
   useEffect(()=>{

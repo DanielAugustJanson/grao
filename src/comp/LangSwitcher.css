@@ -5,6 +5,7 @@
   width: 85px;
   bottom: 20px;
   right: 5vw;
+  z-index: 3;
 }
 
 .lang-switcher{
