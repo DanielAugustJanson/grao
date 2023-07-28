@@ -18,7 +18,39 @@
     backdrop-filter: blur(5px);
 }
 
-.orderSpanner{
+.horSpanner{
     display: flex;
     gap: 10px;
+}
+
+.vertSpanner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#NameInput, #EmailInput, #MessageInput{
+    border-radius: 5px;
+    resize: none;
+}
+
+#NameInput, #EmailInput{
+    width: 250px;
+    height: 30px;
+}
+
+#MessageInput{
+    width: 520px;
+    height: 300px;
+}
+#SubmitInput{
+    width: 70px;
+    height: 30px;
 }
