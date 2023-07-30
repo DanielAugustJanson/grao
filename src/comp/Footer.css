@@ -1,0 +1,40 @@
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+}
+
+footer *{
+    color: white;
+}
+
+.footerContainer{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footerItem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+
+.footerItem svg{
+    position: relative;
+    bottom: 1px;
+}
+
+.footerItem p{
+    font-size: 1rem;
+}
+
+.footerItem a{
+    text-decoration: none;
+}
+ 
