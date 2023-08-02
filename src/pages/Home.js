@@ -8,51 +8,51 @@ import G2 from "./../assets/grao/G7.png";
 import G3 from "./../assets/grao/G8.png";
 
 import Menu from "./../assets/menu/menu.jpg";
+import Divider from "../comp/Divider";
 
 const Home = ({ language, setActiveLink }) => {
   return (
-    <div>
+    <div id="HomePage">
       <section id="HomeLanding">
         <img alt="Cafe" src={LandingImg}></img>
-        <h1>Magusa Elu Kunst</h1>
-        <h2>Kohvik Grao</h2>
-      </section>
-      <section id="HomeContent">
-        <div className="spannerHor">
-          <div className="galleryDiv">
-            <img src={G1} alt="cafe" className="galleryUpper"></img>
-            <div className="galleryLower">
-              <img src={G2} alt="cafe"></img>
-              <img src={G3} alt="cafe"></img>
-            </div>
-          </div>
-          <div className="TextDiv">
-            <h2>Kovhik Grao</h2>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-            <p
-              onClick={() => {
-                setActiveLink("About");
-              }}
-            >
-              About us
-            </p>
-          </div>
+        <div className="landingText">
+          <h1>MAGUSA ELU KUNST</h1>
         </div>
       </section>
+      {/*--------------------------------------------------------------------------------*/}
+      <section id="HomeContent">
+        <div className="HomeImgI"><img src={G1} alt="cafe"></img></div>
+        <div className="HomeImgII"><img src={G2} alt="cafe"></img></div>
+        <div className="HomeImgIII"><img src={G3} alt="cafe"></img></div>
+        
+        
+        
+        <div className="HomeDivText">
+          <h2>Kovhik Grao</h2>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+          <h3
+            onClick={() => {
+              setActiveLink("About");
+            }}
+          >
+            About us
+          </h3>
+        </div>
+      </section>
+
+      {/*--------------------------------------------------------------------------------*/}
       <section id="HomeMenu">
-        <div>
-          <img id="menuLogo" alt="grao logo" src={GraoBlack}></img>
+      <img id="menuLogo" alt="grao logo" src={GraoBlack}></img>
           <h2>Menu</h2>
           <img id="menuImg" alt="menu" src={Menu}></img>
-        </div>
       </section>
     </div>
   );

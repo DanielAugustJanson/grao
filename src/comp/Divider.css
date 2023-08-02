@@ -1,0 +1,10 @@
+.pageDivider{
+    justify-content: center;
+}
+
+.pageDivider img{
+    opacity: 75%;
+    width: 80%;
+    height: auto;
+    padding: 0px;
+}

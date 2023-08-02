@@ -9,6 +9,8 @@ import Order from './pages/Order';
 import Footer from './comp/Footer';
 import LangSwitcher from './comp/LangSwitcher';
 
+
+
 function App() {
   const[language,setLanguage] = useState("EST")
   const [activeLink, setActiveLink] = useState('Home');
