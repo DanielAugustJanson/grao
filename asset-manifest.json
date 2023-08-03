@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grao/static/css/main.57c95c02.css",
-    "main.js": "/grao/static/js/main.1b7df096.js",
+    "main.css": "/grao/static/css/main.8ce5faeb.css",
+    "main.js": "/grao/static/js/main.610c70e4.js",
     "static/media/G1.JPG": "/grao/static/media/G1.a19df66c6284e10ec7f8.JPG",
     "static/media/G8.png": "/grao/static/media/G8.d81285eacdbfe6990fe2.png",
     "static/media/G7.png": "/grao/static/media/G7.af2767f8e47202210152.png",
@@ -16,14 +16,13 @@
     "static/media/Colus-Regular.otf": "/grao/static/media/Colus-Regular.92e5e913f28cee37f1d9.otf",
     "static/media/grao.30x47B2.png": "/grao/static/media/grao.30x47B2.c880663648d8bd683570.png",
     "static/media/div-V.svg": "/grao/static/media/div-V.ccb4f9380fd1bcdeba7e873e03f98041.svg",
-    "static/media/div-IV.svg": "/grao/static/media/div-IV.5d3800cdb89ff1cadad063b583c77ad1.svg",
     "static/media/VeneTeater.svg": "/grao/static/media/VeneTeater.efc762bfe0e96d9aa4e0b094db4ba090.svg",
     "index.html": "/grao/index.html",
-    "main.57c95c02.css.map": "/grao/static/css/main.57c95c02.css.map",
-    "main.1b7df096.js.map": "/grao/static/js/main.1b7df096.js.map"
+    "main.8ce5faeb.css.map": "/grao/static/css/main.8ce5faeb.css.map",
+    "main.610c70e4.js.map": "/grao/static/js/main.610c70e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.57c95c02.css",
-    "static/js/main.1b7df096.js"
+    "static/css/main.8ce5faeb.css",
+    "static/js/main.610c70e4.js"
   ]
 }
