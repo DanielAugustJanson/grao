@@ -6,7 +6,7 @@ import ContactUs from '../comp/widgets/ContactUs'
 
 const Order = props => {
   return (
-    <div>
+    <div id='OrderPage'>
       <section id='OrderLanding'>
         <img alt='Pen and Paper' src={OderBG}></img>
           <ContactUs></ContactUs>

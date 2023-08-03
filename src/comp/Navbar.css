@@ -28,6 +28,12 @@
     width: auto;
 }
 
+.logos img:hover{
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .links{
     display: flex;
     align-items: center;
@@ -51,15 +57,27 @@
     transition: 0.3s;
 }
 
+.links img{
+    height: 40px;
+}
+
+.links img:hover{
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 #OrderNav{
-    border: solid 2px var(--gunPowder);
+    border: solid 2px var(--primary);
+    color: var(--primary);
     font-weight: 500;
     border-radius: 10px;
     padding: 3px 7px 3px 7px;
 }
 
 #OrderNav:hover{
-    border: solid 2px var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 

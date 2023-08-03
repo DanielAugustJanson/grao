@@ -103,7 +103,6 @@
 .HomeDivText p{
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    font-style: italic;
     font-size: 2rem;
     text-align: left;
 }
@@ -142,6 +141,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
 
+    font-family: 'Playfair Display', serif;
     font-size: 5rem;
     font-weight: 500;
 }
