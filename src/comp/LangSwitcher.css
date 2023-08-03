@@ -1,28 +1,30 @@
+@import url("/src/comp/Colors.css");
+
 .lang-switcher{
   position: fixed;
   display: flex;
   flex-direction: column;
   width: 85px;
-  bottom: 20px;
+  bottom: 10px;
   right: 5vw;
   z-index: 3;
 }
 
 .lang-switcher{
   padding: 0px 10px 0 10px;
-
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-  border: solid 1px rgb(71, 71, 71);
+  background-color: var(--white);
+  border-radius: 10px;
+  border: solid 1px var(--dGrey);
 }
 
 .lang-switcher:hover{
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(255, 240, 240);
   transition: 0.25s;
   cursor: pointer;
 }
 
 .lang-switcher p{
+  font-weight: 500;
   font-size: 1rem;
 }
 
@@ -30,7 +32,7 @@
   height: 30px;
   width: 40px;
   object-fit: fill;
-  border: solid 1px grey;
+  border: solid 1px var(--dGrey);
   border-radius: 5px;
 }
 
@@ -41,6 +43,15 @@
   justify-content: flex-start;
   gap: 10px;
 }
+
+.dropdown-inner-div:hover{
+  background-color: var(--white);
+}
+
+.selected-div{
+  color: var(--gunPowder);
+}
+
 
 
 

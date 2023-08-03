@@ -1,8 +1,14 @@
 :root{
-    --primary: #ffc400;
-    --secondary: #f2f2f2;
-    --third: #aa2323;
+    --primary: #d49945;
+    --secondary: #aa2323;
+    --backGround: #dfdfdf;
+    --white: #fdfdfd;
     --lGrey: #a5a5a5;
     --dGrey: #505050;
     --gunPowder: #131212;
+}
+
+@font-face {
+    font-family: "Colus";
+    src: url("./../assets/fonts/Colus-Regular.otf");
 }

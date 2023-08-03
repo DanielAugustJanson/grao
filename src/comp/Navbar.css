@@ -1,59 +1,65 @@
 @import url("/src/comp/Colors.css");
 
-p{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
+
+#NavContainer{
+    position: sticky;
+    display: inline-block;
+    justify-self: center;
+    min-width: 1100px;
+    max-width: 1400px;
+    height: max-content;
 }
-nav, .navDiv, .links{
+
+#NavDivider{
+    width: 100%;
+    padding-top: 1px;
+}
+
+#NavDiv{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .logos img{
     height: 50px;
     width: auto;
 }
-.logos img:hover{
-    cursor: pointer;
-}
-
-.navDiv{
-    width: 70%;
-    max-width: 1100px;
-    min-height: 100px;
-    justify-content: space-between;
-}
 
 .links{
-    justify-content: flex-end;
-    gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
 }
 
 .links p{
+    padding: none;
+    margin: none;
+    font-size: 25px;
     color: var(--gunPowder);
-    border-bottom: solid 3px white;
-    padding: 0.5rem;
+    border-bottom: solid 2px transparent;
+    transition: 0.3s;
 }
 
 .links p:hover{
+    color: var(--primary);
+    border-bottom: solid 2px var(--primary);
     cursor: pointer;
-    font-weight: 300;
-    color: #ffc400;
-    transition: 0.5s;
-    border-bottom: solid 3px gold;
+    transition: 0.3s;
 }
 
-#Order{
-    border-radius: 0.75rem;
-    border: solid 3px var(--dGrey);
+#OrderNav{
+    border: solid 2px var(--gunPowder);
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 3px 7px 3px 7px;
 }
 
-#Order:hover{
-    border: solid 3px var(--primary);
+#OrderNav:hover{
+    border: solid 2px var(--primary);
 }
 
-.active{
-    color: aqua;
-}
+

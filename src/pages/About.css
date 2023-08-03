@@ -1,3 +1,22 @@
+@import url("/src/comp/Colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+#AboutPage{
+    background-color: var(--backGround);
+}
+
+#AboutPage img:hover{
+    transform: scale(1.03);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#AboutPage img{
+    transition: 0.3s;
+}
+
+
+
+/*----------------------------------------------*/
 #AboutLanding{
     position: relative;
     text-align: center;
@@ -5,7 +24,7 @@
 
 #AboutLanding img{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     object-fit: cover;
 }
 
@@ -16,45 +35,94 @@
     transform: translate(-50%, -50%);
 
     
-    font-weight: 500;
-    font-size: 5rem;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Colus', serif;
+    font-size: 12vh;
+    font-weight: 600;
+    backdrop-filter: blur(3px);
+    color: white;
 }
 /*----------------------------------------------*/
 
-.spannerHor{
+
+#AboutSection-I{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(80vh, max-content);
+}
+
+#AboutSection-I .imgDiv{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    width: 100%;
+    height: 100%;
+}
+
+#AboutSection-I .textDiv{
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+    padding: 3vw;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#AboutSection-I .textDiv h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+#AboutSection-I .textDiv p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 #AboutSection-I img{
-    width: 40vw;
-    border-radius: 25px;
-
-}
-
-#AboutSection-I  .textDiv{
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*----------------------------------------------------------*/
-
-
-#AboutSection-II img{
-    width: 25vw;
-    border-radius: 25px;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
-#AboutSection-II .textDiv{
-    width: 25vw;
+/*----------------------------------------------*/
+
+#AboutSection-II{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: minmax(80vh, max-content);
 }
 
+#AboutSection-II .imgDiv{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    
+    display: flex;
+    gap:5px
+}
+
+#AboutSection-II .textDiv{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    min-width: 400px;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#AboutSection-II img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#AboutSection-II .textDiv h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+#AboutSection-II .textDiv p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    text-align: left;
+}
