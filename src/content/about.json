@@ -1,6 +1,6 @@
 {
   "ENG": {
-    "titleLanding": "ART OF GOOD TASTE",
+    "titleLanding": "ABOUT US",
     "AboutSectionI": {
       "h2": "Cafe GraO",
       "p1": "We are delighted to welcome you to our cozy cafe, which opens its doors during the theater season! Here, you can refresh yourself with a cup of aromatic coffee or hot tea, a glass of wine or champagne, all while enjoying excerpts from the best performances and premieres.",
@@ -13,7 +13,7 @@
     }
   },
   "EST": {
-    "titleLanding": "ART OF GOOD TASTE",
+    "titleLanding": "MEIST",
     "AboutSectionI": {
       "h2": "Kohvik GraO",
       "p1": "Oleme rõõmsad teid tervitama meie hubases kohvikus, mis avab oma uksed teatriperioodil! Siin saate ergutada end tassitäie lõhnava kohvi või kuuma teega, klaasitäie veini või šampusega, kõike seda koos katkenditega parimatest etendustest ja esietendustest.",
@@ -26,7 +26,7 @@
     }
   },
   "RUS": {
-    "titleLanding": "ART OF GOOD TASTE",
+    "titleLanding": "О НАС",
     "AboutSectionI": {
       "h2": "Кафе GraO",
       "p1": "Рады видеть Вас в нашем уютном кафе,открывающем свои двери в театральный период!",

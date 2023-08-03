@@ -3,6 +3,7 @@
 
 #HomePage{
     background-color: var(--backGround);
+    padding-bottom: 50px;
 }
 
 #HomeLanding{
@@ -152,4 +153,10 @@
     max-width: 1400px;
     justify-self: center;
     border: solid 3px var(--primary);
+    transition: 0.3s;
+}
+
+#menuImg:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }

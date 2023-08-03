@@ -26,15 +26,20 @@
 .logos img{
     height: 50px;
     width: auto;
+    border-bottom: solid 2px transparent;
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    
 }
 
 .logos img:hover{
-    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
     transition: 0.3s;
     cursor: pointer;
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    border-bottom: solid 2px black;
 }
 
 .links{
+    position: static;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -59,11 +64,15 @@
 
 .links img{
     height: 40px;
+    position: relative;
+    top: 3px;
+    padding-bottom: 3px;
+    border-bottom: solid 2px transparent;
 }
 
 .links img:hover{
-    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
     transition: 0.3s;
+    border-bottom: solid 2px black;
     cursor: pointer;
 }
 
