@@ -21,17 +21,6 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
                 setActiveLink("Home");
               }}
             ></img>
-            <a
-              href="https://www.veneteater.ee/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                alt="Vene Teater Logo"
-                className="logo"
-                src={VeneTeater}
-              ></img>
-            </a>
           </div>
           <div className="links">
             <p
@@ -78,6 +67,17 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
             >
               Order
             </p>
+            <a
+              href="https://www.veneteater.ee/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                alt="Vene Teater Logo"
+                className="logo"
+                src={VeneTeater}
+              ></img>
+            </a>
           </div>
         </div>
       </div>
