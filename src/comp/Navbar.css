@@ -26,9 +26,20 @@
 .logos img{
     height: 50px;
     width: auto;
+    border-bottom: solid 2px transparent;
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    
+}
+
+.logos img:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    border-bottom: solid 2px black;
 }
 
 .links{
+    position: static;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -51,15 +62,31 @@
     transition: 0.3s;
 }
 
+.links img{
+    height: 40px;
+    position: relative;
+    top: 3px;
+    padding-bottom: 3px;
+    border-bottom: solid 2px transparent;
+}
+
+.links img:hover{
+    transition: 0.3s;
+    border-bottom: solid 2px black;
+    cursor: pointer;
+}
+
 #OrderNav{
-    border: solid 2px var(--gunPowder);
+    border: solid 2px var(--primary);
+    color: var(--primary);
     font-weight: 500;
     border-radius: 10px;
     padding: 3px 7px 3px 7px;
 }
 
 #OrderNav:hover{
-    border: solid 2px var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 

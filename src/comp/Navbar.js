@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import GraoBlack from "./../assets/logos/grao.30x47B2.png";
 import VeneTeater from "./../assets/logos/VeneTeater.svg";
-import DividerNav from "./../assets/dividers/div-V.svg";
+// import DividerNav from "./../assets/dividers/div-V.svg";
 import "./Navbar.css";
 
 const Navbar = ({ language, activeLink, setActiveLink }) => {
   return (
     <nav>
       <div id="NavContainer">
-        <img id="NavDivider" alt="divider" src={DividerNav}></img>
+        {/* <img id="NavDivider" alt="divider" src={DividerNav}></img> */}
         <div id="NavDiv">
           <div className="logos">
             <img
@@ -41,14 +41,14 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               About
             </p>
 
-            <p
+            {/* <p
               onClick={() => {
                 setActiveLink("Gallery");
               }}
               id="Gallery"
             >
               Gallery
-            </p>
+            </p>*/}
 
             <p
               onClick={() => {

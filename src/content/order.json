@@ -1,0 +1,26 @@
+{
+  "ENG": {
+    "odrderTitle": "Send us your custom order",
+    "nameInput": "Full name",
+    "emailInput": "Email",
+    "messageInput": "Order details",
+    "sucessMessage": "Your order has been submitted",
+    "sendBtn": "Submit"
+  },
+  "EST": {
+    "odrderTitle": "Saada meile oma tellimus",
+    "nameInput": "Täisnimi",
+    "emailInput": "E-post",
+    "messageInput": "Tellimuse detailid",
+    "sucessMessage": "Teie tellimus on esitatud",
+    "sendBtn": "Saada"
+  },
+  "RUS": {
+    "odrderTitle": "Отправьте нам свой заказ",
+    "nameInput": "Полное имя",
+    "emailInput": "Электронная почта",
+    "messageInput": "Детали заказа",
+    "sucessMessage": "Ваш заказ был отправлен",
+    "sendBtn": "Oтправит"
+  }
+}

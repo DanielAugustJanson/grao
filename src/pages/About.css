@@ -3,13 +3,21 @@
 
 #AboutPage{
     background-color: var(--backGround);
+    padding-bottom: 1vh;
 }
 
-#AboutPage img:hover{
+#AboutSection-I img:hover{
     transform: scale(1.03);
     border-radius: 10px;
     transition: 0.3s;
 }
+
+#AboutSection-II img:hover{
+    transform: scale(1.03);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
 #AboutPage img{
     transition: 0.3s;
 }
@@ -20,11 +28,12 @@
 #AboutLanding{
     position: relative;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #AboutLanding img{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     object-fit: cover;
 }
 
@@ -38,7 +47,7 @@
     font-family: 'Colus', serif;
     font-size: 12vh;
     font-weight: 600;
-    backdrop-filter: blur(3px);
+    /* backdrop-filter: blur(3px); */
     color: white;
 }
 /*----------------------------------------------*/
@@ -48,6 +57,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(80vh, max-content);
+    margin-bottom: 10px;
 }
 
 #AboutSection-I .imgDiv{
@@ -64,6 +74,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgb(255, 254, 191);
 }
 
 #AboutSection-I .textDiv h2{
@@ -107,6 +118,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgb(255, 224, 224);
 
 }
 

@@ -6,7 +6,7 @@
   flex-direction: column;
   width: 85px;
   bottom: 10px;
-  right: 5vw;
+  left: 5vw;
   z-index: 3;
 }
 

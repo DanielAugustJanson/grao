@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import emailjs, { send } from "@emailjs/browser";
 import "./ContactUs.css"
+import ordertJson from "./../../content/order.json"
 
-const ContactUs = () => {
+const ContactUs = ({language}) => {
 
   const[name, setName] = useState("")
   const[email,setEmail] = useState("")
@@ -53,16 +54,16 @@ const ContactUs = () => {
 
   return (
     <form className="d-flex-column align-items-start " ref={form} onSubmit={sendEmail}>
-      <h2>Send us custom order</h2>
-      <label className="form-label" >Name</label>
+      <h2>{ordertJson[language]["orderTitle"]}</h2>
+      <label className="form-label" >{ordertJson[language]["nameInput"]}</label>
       <input onChange={(e)=>{setName(e.target.value)}} className="form-control" type="text" name="user_name" />
-      <label className="form-label" >Email</label>
+      <label className="form-label" >{ordertJson[language]["emailInput"]}</label>
       <input onChange={(e)=>{setEmail(e.target.value)}} className="form-control" type="email" name="user_email" />
-      <label className="form-label" >Message</label>
+      <label className="form-label" >{ordertJson[language]["messageInput"]}</label>
       <textarea onChange={(e)=>{setMessage(e.target.value)}} className="form-control" name="message" />
       <br/>
-      <input className="btn" type="submit" value="Send" />
-      {messageSent && (<p className="success">Your order has been submitted</p>)}
+      <input className="btn" type="submit" value={ordertJson[language]["sendBtn"]} />
+      {messageSent && (<p className="success">{ordertJson[language]["successMessage"]}</p>)}
     </form>
   );
 };

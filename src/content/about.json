@@ -1,0 +1,41 @@
+{
+  "ENG": {
+    "titleLanding": "ABOUT US",
+    "AboutSectionI": {
+      "h2": "Cafe GraO",
+      "p1": "We are delighted to welcome you to our cozy cafe, which opens its doors during the theater season! Here, you can refresh yourself with a cup of aromatic coffee or hot tea, a glass of wine or champagne, all while enjoying excerpts from the best performances and premieres.",
+      "p2": "Even a brief half-hour visit will make you experience a comfortable and theatrical atmosphere."
+    },
+    "AboutSectionII": {
+      "h2": "We await you",
+      "p1": "The theater cafe operates on show days. The cafe opens an hour before the performance and continues to serve until its beginning or during intermission if one is planned in the production.",
+      "p2": "Peeking into the cafe before the show and during intermission is a noble tradition followed by many. For those who like to plan ahead, we would be happy to reserve a table for you."
+    }
+  },
+  "EST": {
+    "titleLanding": "MEIST",
+    "AboutSectionI": {
+      "h2": "Kohvik GraO",
+      "p1": "Oleme rõõmsad teid tervitama meie hubases kohvikus, mis avab oma uksed teatriperioodil! Siin saate ergutada end tassitäie lõhnava kohvi või kuuma teega, klaasitäie veini või šampusega, kõike seda koos katkenditega parimatest etendustest ja esietendustest.",
+      "p2": "Külastades meid isegi pool tundi, tunnete end siin hubase ja teatriliku atmosfäärina."
+    },
+    "AboutSectionII": {
+      "h2": "Ootame teid",
+      "p1": "Teatrikohvik on avatud etenduste päevadel. Kohvik avatakse tund aega enne etendust ja jätkab tööd kuni selle alguseni või vaheajani, kui etenduses on vaheaeg planeeritud.",
+      "p2": "Kohvikusse sisse piilumine enne etendust ja vaheajal - seda aadlikku traditsiooni järgivad paljud. Neile, kes soovivad oma külastuse ette planeerida, oleme valmis laua broneerima."
+    }
+  },
+  "RUS": {
+    "titleLanding": "О НАС",
+    "AboutSectionI": {
+      "h2": "Кафе GraO",
+      "p1": "Рады видеть Вас в нашем уютном кафе,открывающем свои двери в театральный период!",
+      "p2": " У нас вы сможете взбодриться чашкой ароматного кофе или горячего чая,бокала вина или шампанского ,и все это под отрывки лучших спектаклей и премьер."
+    },
+    "AboutSectionII": {
+      "h2": "Мы ждем вас",
+      "p1": "Заглянув сюда даже на пол часа,вы испытаете уютную и театральную атмосферу. Театральное кафе работает в дни спектаклей.Кафе открывается за час до спектакля и продолжает работу до его начала или до антракта,если в постановке он запланирован.",
+      "p2": "Заглянуть в кафе до спектакля,и в антракт-этой благородной традиции придерживаются многие. Для тех кто планирует свой поход заранее,мы будем рады забронировать столик."
+    }
+  }
+}

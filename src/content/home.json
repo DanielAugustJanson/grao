@@ -1,0 +1,32 @@
+{
+  "ENG": {
+    "titleLanding": "ART OF GOOD TASTE",
+    "HomeSecI": {
+      "h2": "Cafe Grao",
+      "p1": "Cafe GraO is a place of pleasant meetings, new encounters, and salon-style conversations, as well as a cozy and appetizing cafe-restaurant where you will always be welcome.",
+      "p2": "Every detail in the interior is carefully selected with love and taste, because within the walls of the Russian theater, it can't be any other way - everything is very stylish and refined.",
+      "h3": "About Us"
+    },
+    "menu": "Menu"
+  },
+  "EST": {
+    "titleLanding": "MAGUSA ELU KUNST",
+    "HomeSecI": {
+      "h2": "Grao",
+      "p1": "Kohvik GraO  - see on meeldivate kohtumiste, uute kohtingute ja salongikõneluste koht ning hubane ja maitsev kohvik-restoran, kus teid alati oodatakse.",
+      "p2": "Iga detail interjööris on hoolikalt valitud armastuse ja maitsega, sest Vene teatri seintel ei saa olla teisiti - kõik on väga stiilne ja elegantne.",
+      "h3": "Meist"
+    },
+    "menu": "Menüü"
+  },
+  "RUS": {
+    "titleLanding": "ИСКУССТВО ВКУСНОЙ ЖИЗНИ",
+    "HomeSecI": {
+      "h2": "Cafe Grao",
+      "p1": "Kohvik GraO - это место приятных встреч, новых свиданий и салонного общения, а также уютное и аппетитное кафе-ресторан, где Вам всегда будут рады.",
+      "p2": "Каждая мелочь в интерьере подобрана с любовью и вкусом, ведь в стенах Русского театра и не может быть по-другому — всё очень стильно и изысканно.",
+      "h3": "О нас"
+    },
+    "menu": "Меню"
+  }
+}
