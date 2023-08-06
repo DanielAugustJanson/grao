@@ -4,12 +4,12 @@ import "./Order.css"
 import OderBG from "./../assets/images/C1.jpg"
 import ContactUs from '../comp/widgets/ContactUs'
 
-const Order = props => {
+const Order = ({language}) => {
   return (
     <div id='OrderPage'>
       <section id='OrderLanding'>
         <img alt='Pen and Paper' src={OderBG}></img>
-          <ContactUs></ContactUs>
+          <ContactUs language={language}></ContactUs>
       </section>
     </div>
   )
