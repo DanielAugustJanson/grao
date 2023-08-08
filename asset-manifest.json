@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/grao/static/css/main.a7fb6278.css",
-    "main.js": "/grao/static/js/main.5e071453.js",
+    "main.css": "/grao/static/css/main.942f228e.css",
+    "main.js": "/grao/static/js/main.96d13dea.js",
     "static/media/G8.png": "/grao/static/media/G8.d81285eacdbfe6990fe2.png",
     "static/media/G7.png": "/grao/static/media/G7.af2767f8e47202210152.png",
     "static/media/G6.png": "/grao/static/media/G6.7f1a7da66f95930cd54f.png",
     "static/media/G1.JPG": "/grao/static/media/G1.f15119e6a25558fff050.JPG",
-    "static/media/B3.jpeg": "/grao/static/media/B3.214203b99113240614c1.jpeg",
     "static/media/B5.jpg": "/grao/static/media/B5.cdc5915c9605d301b224.jpg",
+    "static/media/B3.jpeg": "/grao/static/media/B3.b3403922ddb629798652.jpeg",
     "static/media/menu.jpg": "/grao/static/media/menu.b189c39f77952331223b.jpg",
     "static/media/C1.jpg": "/grao/static/media/C1.938757e5e7776a83f758.jpg",
     "static/media/VT2.jpg": "/grao/static/media/VT2.3550c32eab864417b919.jpg",
@@ -17,11 +17,12 @@
     "static/media/grao.30x47B2.png": "/grao/static/media/grao.30x47B2.c880663648d8bd683570.png",
     "static/media/VeneTeater.svg": "/grao/static/media/VeneTeater.efc762bfe0e96d9aa4e0b094db4ba090.svg",
     "index.html": "/grao/index.html",
-    "main.a7fb6278.css.map": "/grao/static/css/main.a7fb6278.css.map",
-    "main.5e071453.js.map": "/grao/static/js/main.5e071453.js.map"
+    "static/media/Eclipse-2s.svg": "/grao/static/media/Eclipse-2s.b2d1125f72d8dc968b0ce05cbc5fbd92.svg",
+    "main.942f228e.css.map": "/grao/static/css/main.942f228e.css.map",
+    "main.96d13dea.js.map": "/grao/static/js/main.96d13dea.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7fb6278.css",
-    "static/js/main.5e071453.js"
+    "static/css/main.942f228e.css",
+    "static/js/main.96d13dea.js"
   ]
 }
