@@ -37,3 +37,26 @@ footer *{
 .footerItem a{
     text-decoration: none;
 }
+
+/*
+@media only screen and (max-width: 1000px) {
+    .footerContainer{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .footerItem{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px
+    }
+
+}
+*/
