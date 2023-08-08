@@ -1,0 +1,20 @@
+{
+  "ENG": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "order": "Order"
+  },
+  "EST": {
+    "home": "Kodu",
+    "about": "Meist",
+    "contact": "Kontakt",
+    "order": "Telli"
+  },
+  "RUS": {
+    "home": "Главная",
+    "about": "О нас",
+    "contact": "Контакт",
+    "order": "Заказ"
+  }
+}

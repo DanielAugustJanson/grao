@@ -5,6 +5,7 @@ import GraoBlack from "./../assets/logos/grao.30x47B2.png";
 import VeneTeater from "./../assets/logos/VeneTeater.svg";
 // import DividerNav from "./../assets/dividers/div-V.svg";
 import "./Navbar.css";
+import navbarJson from "./../content/navbar.json"
 
 const Navbar = ({ language, activeLink, setActiveLink }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,7 +32,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="Home"
             >
-              Home
+              {navbarJson[language]["home"]}
             </p>
 
             <p
@@ -40,7 +41,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="About"
             >
-              About
+              {navbarJson[language]["about"]}
             </p>
 
             {/* <p
@@ -58,7 +59,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="Contact"
             >
-              Contact
+              {navbarJson[language]["contact"]}
             </p>
 
             <p
@@ -67,7 +68,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="OrderNav"
             >
-              Order
+              {navbarJson[language]["order"]}
             </p>
             <a
               href="https://www.veneteater.ee/"
@@ -126,7 +127,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="Home"
             >
-              Home
+              {navbarJson[language]["home"]}
             </p>
 
             <p
@@ -136,7 +137,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="About"
             >
-              About
+              {navbarJson[language]["about"]}
             </p>
 
             {/* <p
@@ -155,7 +156,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="Contact"
             >
-              Contact
+              {navbarJson[language]["contact"]}
             </p>
 
             <p
@@ -165,7 +166,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               }}
               id="OrderNav"
             >
-              Order
+              {navbarJson[language]["order"]}
             </p>
           </div>
           <a
