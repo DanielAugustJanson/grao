@@ -134,8 +134,8 @@
 #menuLogo{
     grid-column: 2/3;
     grid-row: 1/2;
-
-    max-width: 1000px;
+    filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    width: 50vw;
     justify-self: center;
 }
 
