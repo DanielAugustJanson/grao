@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grao/static/css/main.2865d701.css",
-    "main.js": "/grao/static/js/main.96d13dea.js",
+    "main.css": "/grao/static/css/main.c2a17c84.css",
+    "main.js": "/grao/static/js/main.6351b29e.js",
     "static/media/G8.png": "/grao/static/media/G8.d81285eacdbfe6990fe2.png",
     "static/media/G7.png": "/grao/static/media/G7.af2767f8e47202210152.png",
     "static/media/G6.png": "/grao/static/media/G6.7f1a7da66f95930cd54f.png",
@@ -18,11 +18,11 @@
     "static/media/VeneTeater.svg": "/grao/static/media/VeneTeater.efc762bfe0e96d9aa4e0b094db4ba090.svg",
     "index.html": "/grao/index.html",
     "static/media/Eclipse-2s.svg": "/grao/static/media/Eclipse-2s.b2d1125f72d8dc968b0ce05cbc5fbd92.svg",
-    "main.2865d701.css.map": "/grao/static/css/main.2865d701.css.map",
-    "main.96d13dea.js.map": "/grao/static/js/main.96d13dea.js.map"
+    "main.c2a17c84.css.map": "/grao/static/css/main.c2a17c84.css.map",
+    "main.6351b29e.js.map": "/grao/static/js/main.6351b29e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2865d701.css",
-    "static/js/main.96d13dea.js"
+    "static/css/main.c2a17c84.css",
+    "static/js/main.6351b29e.js"
   ]
 }
