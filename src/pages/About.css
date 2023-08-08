@@ -138,3 +138,35 @@
     font-size: 1.5rem;
     text-align: left;
 }
+
+@media only screen and (max-width: 1000px) {
+    
+    #AboutLanding{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #AboutLanding img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    #AboutSection-I{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #AboutSection-I div, #AboutSection-I img{
+        min-height: 45vh;
+    }
+
+    #AboutSection-II{
+        display: flex;
+        flex-direction: column;
+    }
+    #AboutSection-II div, #AboutSection-II img{
+        min-height: 45vh;
+    }
+
+
+}

@@ -12,7 +12,7 @@ const Loading = ({loading}) => {
       setTimeout(() => {
         setFadeOut("fade-out");
       }, 400);
-      console.log("Use Effect used")
+      console.log("Use Effect fade out used")
     }
   }, [loading]);
 
