@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./About.css";
 import aboutJson from "./../content/about.json"
@@ -9,12 +9,23 @@ import AboutI from "./../assets/gallery/B6.jpg";
 
 import AboutII from "./../assets/gallery/B5.jpg";
 import AboutIII from "./../assets/gallery/B2.jpg";
+import Loading from "./../comp/widgets/Loading";
 
 const About = ({language}) => {
+  const [loading, setLoading] = useState(true);
+  const [show, setShow] = useState(true);
+
+
   return (
     <div id="AboutPage">
+      {show ? <Loading loading={loading} /> : null}
       <section id="AboutLanding">
-        <img alt="Grao title with flowers" src={AboutLanding}></img>
+        <img alt="Grao title with flowers" src={AboutLanding} onLoad={() => {
+            setLoading(false);
+            setTimeout(() => {
+              setShow(false)       
+            }, 500);
+          }} ></img>
         <h2>{aboutJson[language]["titleLanding"]}</h2>
       </section>
       <br/>

@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Contact.css";
 import ContactImage from "../assets/images/VT2.jpg";
 import contactJSON from "./../content/contact.json"
+import Loading from "./../comp/widgets/Loading";
 
 const Contact = ({language}) => {
+  const [loading, setLoading] = useState(true);
+  const [show, setShow] = useState(true);
 
   return (
     <div id="ContactPage">
+      {loading ? <Loading loading={loading} /> : null}
       <section id="ContactLanding">
-        <img alt="Vene Teater Front View" src={ContactImage}></img>
+      <img alt="Vene Teater Front View" src={ContactImage} onLoad={() => {
+            setTimeout(() => {
+              setLoading(false);
+            }, 500);
+          }}></img>
         <h2>{contactJSON[language]["titleLanding"]}</h2>
       </section>
       <section id="ContactInfo">
