@@ -127,7 +127,7 @@
 
 #HomeMenu{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 50px 4fr 50px;
     grid-row: auto auto minmax(80vh, max-content);
 }
 
@@ -160,4 +160,43 @@
 #menuImg:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    #HomeLanding{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #HomeLanding img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    #HomeContent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #HomeMenu{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menuLogo{
+        width: 400px;
+        filter: invert(93%) sepia(12%) saturate(7435%) hue-rotate(325deg) brightness(89%) contrast(84%);
+    }
+    #HomeMenu h2{
+        font-size: 3rem;
+        border-bottom: solid 2px black;
+    }
+    #menuImg{
+        width: 100%;
+    }
+
+
+    
 }
