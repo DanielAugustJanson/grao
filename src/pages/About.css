@@ -151,6 +151,9 @@
         height: 100vh;
         object-fit: cover;
     }
+    #AboutLanding h2{
+        font-size: 3rem;
+    }
 
     #AboutSection-I{
         display: flex;

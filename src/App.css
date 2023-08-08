@@ -1,4 +1,6 @@
-
+*{
+  Overflow-x: hidden
+}
 
 .App {
   text-align: center;

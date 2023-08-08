@@ -130,7 +130,7 @@
     }
     #MobileMenuMainBar svg{
         height: 50px;
-        padding-right: 10px;
+        margin-right: 10px;
     }
     #MobileMenuMainBar:hover svg{
         cursor: pointer;

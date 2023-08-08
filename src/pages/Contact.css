@@ -84,6 +84,9 @@
         height: 100vh;
         object-fit: cover;
     }
+    #ContactLanding h2{
+        font-size: 3rem;
+    }
 
     #ContactInfo{
         display: flex;
