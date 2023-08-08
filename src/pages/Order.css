@@ -3,6 +3,7 @@
 
 #OrderPage{
     min-height: 90vh;
+    height: fit-content;
 }
 
 #OrderLanding img{
@@ -15,7 +16,14 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    #OrderLanding img{
-        height: 100vh;
+
+    #OrderLanding{
+        height: 1000px;
     }
+
+    #OrderLanding img{
+        object-fit: cover;
+    }
+
+    
 }

@@ -9,7 +9,7 @@ const Order = ({language}) => {
     <div id='OrderPage'>
       <section id='OrderLanding'>
         <img alt='Pen and Paper' src={OderBG}></img>
-          <ContactUs id="ContactUs" language={language}></ContactUs>
+        <ContactUs id="ContactUs" language={language}></ContactUs>
       </section>
     </div>
   )
