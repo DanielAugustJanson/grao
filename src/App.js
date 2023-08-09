@@ -23,6 +23,11 @@ function App() {
   },[language])
   */
 
+  useEffect(() => {
+    // Update the document title when activeLink changes
+    document.title = `GraO - ${activeLink}`;
+  }, [activeLink]);
+
   //Render website
   function render(){
     switch(activeLink){
