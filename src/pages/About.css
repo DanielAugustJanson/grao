@@ -163,12 +163,30 @@
         min-height: 45vh;
     }
 
+    /*------------------------------------------------ */
+
     #AboutSection-II{
         display: flex;
         flex-direction: column;
+        max-width: 100%;
+        max-height: fit-content;
     }
     #AboutSection-II div, #AboutSection-II img{
         min-height: 45vh;
+    }
+    #AboutSection-II .textDiv{
+        word-wrap: normal;
+        margin: 0;
+        padding: 5px;
+    }
+
+    #AboutSection-II .textDiv p{
+        font-size: 1.5rem;
+        overflow-x: hidden;
+    }
+
+    #AboutSection-II img{
+        width: 50%;
     }
 
 
