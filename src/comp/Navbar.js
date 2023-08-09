@@ -124,6 +124,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               onClick={() => {
                 setActiveLink("Home");
                 setMenuOpen(false)
+                window.scrollTo(0, 0);
               }}
               id="Home"
             >
@@ -134,6 +135,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               onClick={() => {
                 setActiveLink("About");
                 setMenuOpen(false)
+                window.scrollTo(0, 0);
               }}
               id="About"
             >
@@ -153,6 +155,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               onClick={() => {
                 setActiveLink("Contact");
                 setMenuOpen(false)
+                window.scrollTo(0, 0);
               }}
               id="Contact"
             >
@@ -163,6 +166,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               onClick={() => {
                 setActiveLink("Order");
                 setMenuOpen(false)
+                window.scrollTo(0, 0);
               }}
               id="OrderNav"
             >

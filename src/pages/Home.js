@@ -46,7 +46,7 @@ const Home = ({ language, setActiveLink }) => {
         </div>
 
         <div className="HomeDivText">
-          <h2>{homeJson[language]["HomeSecI"]["h2"]}</h2>
+          {/* <h2>{homeJson[language]["HomeSecI"]["h2"]}</h2> */}
           <p>{homeJson[language]["HomeSecI"]["p1"]}</p>
           <p>{homeJson[language]["HomeSecI"]["p2"]}</p>
           <h3
