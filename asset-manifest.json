@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/grao/static/css/main.3d101c82.css",
-    "main.js": "/grao/static/js/main.28e1c038.js",
+    "main.js": "/grao/static/js/main.1fd8f90f.js",
     "static/media/G8.png": "/grao/static/media/G8.d81285eacdbfe6990fe2.png",
     "static/media/G7.png": "/grao/static/media/G7.af2767f8e47202210152.png",
     "static/media/G6.png": "/grao/static/media/G6.7f1a7da66f95930cd54f.png",
@@ -19,10 +19,10 @@
     "index.html": "/grao/index.html",
     "static/media/Eclipse-2s.svg": "/grao/static/media/Eclipse-2s.b2d1125f72d8dc968b0ce05cbc5fbd92.svg",
     "main.3d101c82.css.map": "/grao/static/css/main.3d101c82.css.map",
-    "main.28e1c038.js.map": "/grao/static/js/main.28e1c038.js.map"
+    "main.1fd8f90f.js.map": "/grao/static/js/main.1fd8f90f.js.map"
   },
   "entrypoints": [
     "static/css/main.3d101c82.css",
-    "static/js/main.28e1c038.js"
+    "static/js/main.1fd8f90f.js"
   ]
 }
