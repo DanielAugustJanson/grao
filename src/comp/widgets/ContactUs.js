@@ -32,10 +32,10 @@ const ContactUs = ({language}) => {
 
     emailjs
       .sendForm(
-        "service_44ntx5g",
-        "template_cqds9hq",
+        "service_0nzn9sw",
+        "template_hmvkoet",
         form.current,
-        "uMdPW65UGfGCWdsTe"
+        "x1R-WsB8EE5qlKCLk"
       )
       .then(
         (result) => {
