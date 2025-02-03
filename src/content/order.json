@@ -4,7 +4,7 @@
     "nameInput": "Full name",
     "emailInput": "Email",
     "messageInput": "Order details",
-    "sucessMessage": "Your order has been submitted",
+    "successMessage": "Your order has been submitted",
     "sendBtn": "Submit"
   },
   "EST": {
@@ -12,7 +12,7 @@
     "nameInput": "Täisnimi",
     "emailInput": "E-post",
     "messageInput": "Tellimuse detailid",
-    "sucessMessage": "Teie tellimus on esitatud",
+    "successMessage": "Teie tellimus on esitatud",
     "sendBtn": "Saada"
   },
   "RUS": {
@@ -20,7 +20,7 @@
     "nameInput": "Полное имя",
     "emailInput": "Электронная почта",
     "messageInput": "Детали заказа",
-    "sucessMessage": "Ваш заказ был отправлен",
+    "successMessage": "Ваш заказ был отправлен",
     "sendBtn": "Oтправит"
   }
 }

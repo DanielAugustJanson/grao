@@ -64,6 +64,7 @@ form textarea{
     align-self: center;
     color: rgb(105, 201, 105);
     opacity: 100%;
+    font-size: 1rem;
     transition: 1s;
 }
 
