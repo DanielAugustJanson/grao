@@ -71,7 +71,7 @@ const Navbar = ({ language, activeLink, setActiveLink }) => {
               {navbarJson[language]["order"]}
             </p>
             <a
-              href="https://www.veneteater.ee/"
+              href="https://www.sudalinnateater.ee"
               target="_blank"
               rel="noopener noreferrer"
             >
